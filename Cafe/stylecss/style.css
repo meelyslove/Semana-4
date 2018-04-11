@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster');
+
+body{
+	margin: 0;
+	max-width: 100%;
+}
+
+h2{
+	color: #BA55D3;
+}
+
+img{
+	opacity: 100%;
+	max-height: 1162px;
+	max-width: 3882px;
+	width: 100%;
+}
+
+section{
+	max-width: 45%;
+	margin-right: 8%;
+	display: inline-block;
+}
+h1, h2 {
+	font-family: Lobster-Regular;
+}
+nav {
+	font-family: JosefinSans-SemiBold;
+}
+p {
+	font-family: JosefinSans-Light;
+}
+aside{
+	max-width: 45%;
+	display: inline-block;
+}
+
+nav{
+	background-color: #008B8B;
+	margin:-5px;
+}
+
+nav li{
+	color: white;
+	list-style-type: none;
+	display: inline-block;
+	margin-top: 1px;
+	padding: 10px 5px 10px 5px;
+	text-transform: uppercase;
+	margin-right: 5px;
+	-webkit-transition: .199s; /* Safari */
+    transition: .199s;
+}
+
+nav li:hover{
+	background-color: #BA55D3;
+	cursor: pointer;
+}
+footer{
+	float: bottom;
+}
+
+footer{
+	font-family: JosefinSans-SemiBold;
+	padding-bottom: 10px;
+	background-color: #008B8B;
+	color: white;
+}
+
+footer span{
+	margin-left: 10px;
+}
+
+footer a{
+	font-family: Lobster-Regular;
+	text-decoration: none;
+	color: white;
+}
+
+.wrapper{
+	margin: 0 auto;
+	max-width: 90%;
+}
